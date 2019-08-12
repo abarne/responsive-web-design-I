@@ -112,30 +112,23 @@ body{
 	justify-content: center;
 	align-items: center;
 	/* height:70%; */
-	width:70%;
+    width:70%;
 }
 
 .title, .title2, .title3{
-	font-size: 50px;
+    font-size: 50px;
+    
 }
 
 .started-button{
 	/* border: 1px solid black !important; */
 	text-align: center;
-    /* width:150px; */
     width:15%;
+    min-width:100px;
 	height: 60px;
-	margin-right:25%;
+	
 }
-.title{
-	width:40%;
-}
-.title2{
-	width: 30%;
-}
-.title3{
-	width:40%;	
-}
+
 
 /*features and about styling*/
 

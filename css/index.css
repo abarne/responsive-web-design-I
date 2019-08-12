@@ -1,3 +1,199 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+*{
+	/* border: 1px solid black !important; */
+}
+
+/*Nav bar styling*/
+
+body{
+	width:80%;
+	margin: 0px auto;
+}
+
+.navBar{
+	display:flex;
+	justify-content:space-between;
+	height: 100px;
+	margin-bottom: 50px;
+	
+}
+
+.navBar a{
+	text-decoration: none;
+	color: rgb(70, 70, 70);
+}
+/*top section styling*/
+.top-section{
+	display:flex;
+	justify-content: flex-end;	
+	border-bottom: 1px solid black !important;
+	height: 500px;
+}
+
+.main-title{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* height:70%; */
+	width:70%;
+}
+
+.title, .title2, .title3{
+	font-size: 50px;
+}
+
+.started-button{
+	/* border: 1px solid black !important; */
+	text-align: center;
+    /* width:150px; */
+    width:15%;
+	height: 60px;
+	margin-right:25%;
+}
+.title{
+	width:40%;
+}
+.title2{
+	width: 30%;
+}
+.title3{
+	width:40%;	
+}
+
+/*features and about styling*/
+
+.top-content{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+.top-content div{
+	width: 47%;
+}
+
+.middle-img{
+	width:100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*services, product, vision styling*/
+
+.bottom-content{
+	display:flex;
+	height: 200px;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+}
+.bottome-content div{
+	width: 31%;
+}
+
+.copyright{
+	margin-bottom: 80px;
+	margin-left:50%;
+}
+
+.started-button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.started-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+.started-button:active {
+	position:relative;
+	top:1px;
+}
 

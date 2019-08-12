@@ -163,7 +163,7 @@ body{
 	border-bottom: 1px solid black;
 	margin-bottom: 50px;
 }
-.bottome-content div{
+.bottom-content div{
 	width: 31%;
 }
 
@@ -241,5 +241,51 @@ body{
     .top-section{
         padding-left:10%;
         margin-top:0;
+    }
+}
+@media screen and (max-width: 500px){
+    .navBar{
+        flex-direction:column-reverse;
+        justify-content: center;
+        padding:0;
+        margin-left:0;
+        margin-right:0;
+    }
+    .logo{
+        padding-left:40%;
+    }
+    .navElements{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        text-align: center;
+
+    }
+    .navElements a{
+        width:500px;
+        border-bottom:1px solid black;
+        /* border-top:1px solid black; */
+    
+    }
+    .started-button{
+        width:30%;
+    }
+
+    .top-content{
+        flex-direction:column;
+    }
+    .top-content div{
+        width:100%;
+        padding-bottom:40px;
+    }
+    .bottom-content{
+        flex-direction: column;
+        height:400px;
+    }
+    .bottom-content div{
+        margin-bottom:40px;
+        width:100%;
     }
 }

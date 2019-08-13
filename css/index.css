@@ -232,7 +232,7 @@ body{
         width:100%;
     }
     .top-section{
-        padding-left:10%;
+        padding-right:15%;
         margin-top:0;
     }
 }
@@ -280,5 +280,8 @@ body{
     .bottom-content div{
         margin-bottom:40px;
         width:100%;
+    }
+    .top-section{
+        padding-left: 18%;
     }
 }
